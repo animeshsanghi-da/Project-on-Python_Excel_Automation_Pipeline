@@ -94,6 +94,7 @@ Creates the sample sales dataset (`Raw_Sales_Data.xlsx`):
 ```Bash
 python 01_generate_sample_data.py
 ```
+![Sample Data](images/sample_data.png)
 
 ### 2. Execute Headless OpenPyXL Processing
 
@@ -102,6 +103,7 @@ Parses the raw file, adds native formulas (`Total_Revenue`, `Commission`), appli
 ```Bash
 python 02_openpyxl_automation.py
 ```
+![openpyxl automation](images/openpyxl_automation.png)
 
 ### 3. Execute xlwings Live Excel Automation
 
@@ -110,6 +112,7 @@ Launches an Excel background process, computes regional aggregates via Pandas, c
 ```Bash
 python 03_xlwings_automation.py
 ```
+![xlwings automation](images/xlwings_automation.png)
 
 ## System Workflow
 
